@@ -1,0 +1,204 @@
+.customers-section {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #555;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #29394b;
+  outline: none;
+}
+
+.customer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.customer-header > div {
+  display: flex;
+  align-items: center;
+}
+
+.customer-header h1 {
+  margin: 0;
+}
+
+.count-badge {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background-color: #222f3c;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.customers-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.customers-table th,
+.customers-table td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.customers-table th {
+  background-color: #f4f6f9;
+  font-size: 16px;
+  color: #444;
+  font-weight: 500;
+}
+
+.customers-table td {
+  font-size: 15px;
+  color: #555;
+}
+
+.customers-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.customers-table button {
+  padding: 8px 15px;
+  margin-right: 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.customers-table button:first-of-type {
+  background-color: #007bff;
+  color: white;
+}
+
+.customers-table button:first-of-type:hover {
+  background-color: #0056b3;
+}
+
+.customers-table button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+}
+
+.customers-table button:last-of-type:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+  .customers-section {
+    padding: 20px;
+  }
+
+  .search-bar,
+  .add-customer-button {
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .customers-table th,
+  .customers-table td {
+    font-size: 14px;
+  }
+
+  .customers-table button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+
+/* Modal overlay */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.new-customer-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cancel-button,
+.submit-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cancel-button:hover,
+.submit-button:hover {
+  opacity: 0.8;
+}

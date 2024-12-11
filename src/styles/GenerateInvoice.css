@@ -1,0 +1,94 @@
+.generate-invoice-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job-id-input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.job-id-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  width: 350px;
+}
+
+.fetch-data-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #222f3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.fetch-data-button:hover {
+  background-color: #575757;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.invoice-details {
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+
+.customer-info,
+.job-info {
+  margin-bottom: 20px;
+}
+
+.customer-info h2,
+.job-info h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.customer-info p,
+.job-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.dynamic-fields {
+  margin-top: 20px;
+}
+
+.dynamic-field {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.dynamic-field span {
+  font-weight: bold;
+}
+
+.print-button {
+  background-color: #137e5e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.print-button:hover {
+  background-color: #078a63;
+}

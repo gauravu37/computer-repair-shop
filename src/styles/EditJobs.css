@@ -1,0 +1,149 @@
+.edit-jobs-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+}
+
+input,
+textarea,
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+input[readonly] {
+  background-color: #f0f0f0;
+}
+
+.job-description {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.dynamic-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: solid #ddd;
+}
+
+.add-dynamic-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name-input {
+  flex: 3; /* Makes the name input wider */
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.price-input {
+  flex: 1; /* Makes the price input slightly narrower */
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.addServiceOrPartBtn {
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.addServiceOrPartBtn:hover {
+  color: white;
+  background-color: black;
+}
+.removeLogaBtn {
+  color: red;
+}
+.removeLogaBtn:hover {
+  color: rgb(178, 0, 0);
+  cursor: pointer;
+}
+.saveChangesBtn {
+  padding: 12px 50px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.saveChangesBtn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(115, 115, 115);
+}
+
+.job-id-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.job-id-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 350px;
+  transition: border-color 0.3s ease;
+}
+
+.job-id-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #222f3c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.job-id-button:hover {
+  background-color: #091016;
+}
+
+.job-id-button:disabled {
+  background-color: #020c16;
+  cursor: not-allowed;
+}

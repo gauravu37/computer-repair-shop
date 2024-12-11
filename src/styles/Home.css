@@ -1,0 +1,96 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.dashboard > .dashboardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard > .dashboardTop > .card-container {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dashboard > .dashboardTop > .card-container > .card {
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  padding: 20px 10px;
+  width: 44%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard > .dashboardTop > .card-container > .card > .card-header {
+  font-size: 16px;
+  font-weight: 550;
+  display: flex;
+  color: grey;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard > .dashboardTop > .card-container > .card > .card-body {
+  font-size: 35px;
+  margin-top: 15px;
+  font-weight: 550;
+}
+
+.dashboard > .dashboardTop > .graph {
+  width: 58%;
+  height: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+}
+.dashboard > .dashboardTop > .graph > div {
+  width: 100%;
+  height: 100%;
+}
+
+.table-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.table-container > h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #222f3c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: center;
+  color: white;
+}
+
+table td {
+  color: #222f3c;
+  border-bottom: 2px solid #dbdee5;
+}
+
+table th {
+  background-color: #3c4147;
+}
+
+table tr {
+  cursor: pointer;
+  color: black;
+}

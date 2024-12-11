@@ -1,0 +1,3 @@
+customer admin manager/employee : role
+
+what you see what you get editor

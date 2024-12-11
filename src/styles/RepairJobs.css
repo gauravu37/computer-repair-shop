@@ -1,0 +1,133 @@
+.repair-jobs-container {
+  max-width: 100%;
+  margin: auto;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.repair-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: #555;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-input:focus {
+  border-color: #222f3c;
+}
+
+.add-customer-button,
+.cancel-button,
+.submit-button {
+  display: inline-block;
+  background-color: #222f3c;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-customer-button {
+  width: fit-content;
+}
+
+.add-customer-button:hover,
+.cancel-button:hover,
+.submit-button:hover {
+  background-color: #4f5255;
+}
+
+.new-customer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+textarea.form-input {
+  resize: none;
+  height: 100px;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  background-color: #222f3c;
+}
+
+.submit-button:hover {
+  background-color: #3d454e;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}
+.jobs-title {
+  margin-top: 40px;
+}
+.jobs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.jobs-table th,
+.jobs-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.jobs-table .job-details {
+  background-color: #f9f9f9;
+  padding: 10px;
+  text-align: left;
+}
+
+.view-details-button {
+  background-color: black;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}

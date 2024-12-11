@@ -1,0 +1,90 @@
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background-color: #222f3c;
+  transition: transform 0.3s ease;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  padding-top: 20px;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo > img {
+  width: 75px;
+}
+.logo > h2 {
+  color: white;
+  font-weight: 550;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+.sidebar-open {
+  transform: translateX(0);
+}
+
+.sidebar-closed {
+  transform: translateX(-100%);
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.menu li {
+  padding: 10px;
+  padding-left: 30px;
+  cursor: pointer;
+  color: rgb(151, 151, 151);
+  font-weight: 250;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.menu li:hover {
+  background-color: #303b49;
+  color: white;
+}
+.menu li.active {
+  background-color: #303b49;
+  color: white;
+  border-left: 2px solid #3a7cdb;
+}
+
+.menu .logoutLi {
+  color: red;
+}
+.menu .logoutLi:hover {
+  background-color: rgba(255, 0, 0, 0.51);
+  color: red;
+}
+.dropdown-menu {
+  list-style: none;
+  padding-left: 25px;
+}
+
+.sidebar .menu .dropdown .menu-item {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  color: rgb(151, 151, 151);
+}
+
+.sidebar .menu .dropdown .arrow {
+  margin-left: auto;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(151, 151, 151);
+}
